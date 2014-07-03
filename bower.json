@@ -1,0 +1,32 @@
+{
+  "name": "grunt-bower-vinstall",
+  "version": "0.1.0",
+  "authors": [
+    "cognivator <cognivator@gmail.com>"
+  ],
+  "description": "Install bower components into a folder structure that includes component version info.",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "bower",
+    "install",
+    "version",
+    "grunt"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+      "angular": "~1.2.16",
+    "bootstrap": "~3.1.1",
+      "jquery": "~2.1.1",
+      "lodash": "~2.4.1"
+  }
+}
